@@ -40,17 +40,17 @@
             #endregion
 
             #region Question 6
-            var productStatusList = ProductList.Select(p => new
-            {
-                Name = p.ProductName,
-                Price = p.UnitPrice,
-                StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
-            });
+            //var productStatusList = ProductList.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice,
+            //    StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //});
 
-            foreach (var p in productStatusList)
-            {
-                Console.WriteLine($"Name: {p.Name}, Price: {p.Price:C}, Status: {p.StockStatus}");
-            }
+            //foreach (var p in productStatusList)
+            //{
+            //    Console.WriteLine($"Name: {p.Name}, Price: {p.Price:C}, Status: {p.StockStatus}");
+            //}
             #endregion
 
             #region Question 7
