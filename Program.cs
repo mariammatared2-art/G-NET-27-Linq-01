@@ -23,12 +23,12 @@
             #endregion
 
             #region Question 3
-            var sortedProducts = ProductList.OrderBy(p => p.UnitPrice);
+            //var sortedProducts = ProductList.OrderBy(p => p.UnitPrice);
 
-            foreach (var p in sortedProducts)
-            {
-                Console.WriteLine($"Name: {p.ProductName}, Price: {p.UnitPrice:C}");
-            }
+            //foreach (var p in sortedProducts)
+            //{
+            //    Console.WriteLine($"Name: {p.ProductName}, Price: {p.UnitPrice:C}");
+            //}
             #endregion
 
             #region Question 4
