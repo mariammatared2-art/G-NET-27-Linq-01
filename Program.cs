@@ -76,10 +76,10 @@
             #endregion
 
             #region Question 10
-            var recentOrders = from customer in CustomerList
-                               from order in customer.Orders
-                               where order.OrderDate.Year >= 1997
-                               select new { customer.CustomerID, order.OrderDate };
+            //var recentOrders = from customer in CustomerList
+            //                   from order in customer.Orders
+            //                   where order.OrderDate.Year >= 1997
+            //                   select new { customer.CustomerID, order.OrderDate };
             #endregion
 
             #region Question 11
