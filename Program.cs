@@ -63,7 +63,7 @@
             #endregion
 
             #region Question 8
-            var complexSortedProducts = ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
+            //var complexSortedProducts = ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
             #endregion
 
             #region Question 9
