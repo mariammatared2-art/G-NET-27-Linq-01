@@ -97,11 +97,11 @@
             #endregion
 
             #region Question 13
-            string[] digitArr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //string[] digitArr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
-            var filteredReversedDigits = digitArr
-                .Where(word => word.Length > 1 && word[1] == 'i')
-                .Reverse();
+            //var filteredReversedDigits = digitArr
+            //    .Where(word => word.Length > 1 && word[1] == 'i')
+            //    .Reverse();
             #endregion
 
 
