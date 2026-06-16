@@ -91,9 +91,9 @@
             #endregion
 
             #region Question 12
-            string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BIUeBeRrY", "ClOvEr", "cHeRry" };
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BIUeBeRrY", "ClOvEr", "cHeRry" };
 
-            var sortedWords = Arr.OrderBy(word => word.Length).ThenBy(word => word, StringComparer.OrdinalIgnoreCase);
+            //var sortedWords = Arr.OrderBy(word => word.Length).ThenBy(word => word, StringComparer.OrdinalIgnoreCase);
             #endregion
 
             #region Question 13
