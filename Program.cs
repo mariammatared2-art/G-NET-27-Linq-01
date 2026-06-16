@@ -67,12 +67,12 @@
             #endregion
 
             #region Question 9
-            var beverageStock = ProductList.Where(p => p.Category == "Beverages").OrderByDescending(p => p.UnitsInStock);
+            //var beverageStock = ProductList.Where(p => p.Category == "Beverages").OrderByDescending(p => p.UnitsInStock);
 
-            foreach (var p in beverageStock)
-            {
-                Console.WriteLine($"Name: {p.ProductName}, Stock: {p.UnitsInStock}");
-            }
+            //foreach (var p in beverageStock)
+            //{
+            //    Console.WriteLine($"Name: {p.ProductName}, Stock: {p.UnitsInStock}");
+            //}
             #endregion
 
             #region Question 10
