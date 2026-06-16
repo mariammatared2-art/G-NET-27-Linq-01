@@ -14,12 +14,12 @@
             #endregion
 
             #region Question 2
-            var productNames = ProductList.Select(p => p.ProductName);
+            //var productNames = ProductList.Select(p => p.ProductName);
 
-            foreach (var name in productNames)
-            {
-                Console.WriteLine(name);
-            }
+            //foreach (var name in productNames)
+            //{
+            //    Console.WriteLine(name);
+            //}
             #endregion
 
             #region Question 3
