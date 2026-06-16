@@ -54,12 +54,12 @@
             #endregion
 
             #region Question 7
-            var numberedProducts = ProductList.Select((p, index) => $"{index + 1}. {p.ProductName}");
+            //var numberedProducts = ProductList.Select((p, index) => $"{index + 1}. {p.ProductName}");
 
-            foreach (var formattedName in numberedProducts)
-            {
-                Console.WriteLine(formattedName);
-            }
+            //foreach (var formattedName in numberedProducts)
+            //{
+            //    Console.WriteLine(formattedName);
+            //}
             #endregion
 
             #region Question 8
