@@ -83,11 +83,11 @@
             #endregion
 
             #region Question 11
-            var productPositions = ProductList.Select((p, index) => new
-            {
-                Position = index + 1,
-                p.ProductName
-            });
+            //var productPositions = ProductList.Select((p, index) => new
+            //{
+            //    Position = index + 1,
+            //    p.ProductName
+            //});
             #endregion
 
             #region Question 12
