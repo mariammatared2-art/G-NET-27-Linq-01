@@ -36,7 +36,7 @@
             #endregion
 
             #region Question 5
-            var inStockCondiments = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+            //var inStockCondiments = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
             #endregion
 
             #region Question 6
