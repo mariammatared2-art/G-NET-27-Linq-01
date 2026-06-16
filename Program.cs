@@ -32,7 +32,7 @@
             #endregion
 
             #region Question 4
-            var midRangeProducts = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+            //var midRangeProducts = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
             #endregion
 
             #region Question 5
